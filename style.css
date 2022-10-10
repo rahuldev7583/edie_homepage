@@ -1,0 +1,258 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+#heading{
+  margin: 10px 0 0 10px;
+}
+.menu-icon{
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+.header{
+  width: 75%;
+  height: 70vh;
+  text-align: left;
+  padding-left: 40px;
+}
+.header p:first-child{
+  color: #2D9CDB;
+}
+.header p:last-of-type{
+  font-size: 0.9rem
+}
+.header img{
+  width: 125%;
+  height: 25%;
+  margin: 20px 0 0 -30px;
+  border-radius: 20px;
+}
+h3{
+  font-size: 1.6em;
+  font-weight: 400;
+}
+.header-text{
+  margin-top: 25px;
+}
+.form{
+  margin-top: 30px;
+}
+.form input{
+  font-size: 1.2rem;
+  width: 95%;
+  padding: 8px 0 8px 20px;
+  border: none;
+  border-radius: 10px;
+  background-color: #F2F2F2;
+  margin-top: 20px;
+}
+.form button{
+  font-size: 1.3rem;
+  border: none;
+  background-color: #2D9CDB;
+  border-radius: 10px;
+  height: 35px;
+  width: 70px;
+  color: white;
+  position: relative;
+  left: 12.8rem;
+  bottom: 2.3rem;
+}
+.services{
+  width: 75%;
+  margin: 10px 0 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+ .services-head{
+  width: 75%;
+  margin: 50px 0 0 40px;
+  font-size: 1.8em;
+  font-weight: 400;
+}
+.icon{
+color: white;
+ padding: 10px;
+ border-radius: 10px;
+}
+.ui-ux, .front-end, .back-end{
+  margin-top: 40px;
+}
+.service-heading, .service-text, .start{
+  margin-top: 30px;
+}
+.service-text{
+  font-size: 0.9rem;
+}
+.ui-ux .icon{
+  background-color: #2D9CDB;
+}
+.front-end .icon{
+  background-color: #27AE60;
+}
+.back-end .icon{
+  background-color: #EB5757;
+}
+.demo{
+  width: 75%;
+  margin-left: 20px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
+}
+.demo img{
+  width: 125%;
+  margin: 20px 0 0 -10px;
+  border-radius: 20px;
+}
+.demo a {
+  color: #2D9CDB;
+  text-decoration: none;
+  margin-top: 30px;
+}
+.start{
+  border: none;
+  height: 35px;
+  width: 120px;
+  font-size: 1rem;
+  border-radius: 15px;
+  background-color: #F2F2F2;
+  color: black;
+}
+.start:hover{
+  color: white;
+  background-color: #2D9CDB;
+}
+.team{
+  width: 75%;
+  margin: 40px 0 0 40px;
+}
+.team p:first-child{
+  color: #EB5757;
+}
+.team p{
+  margin-top: 2rem;
+}
+.team h3{
+  font-size: 1.9em;
+   margin-top: 2rem;
+}
+.teamImg{
+  width: 100%;
+  margin-top: 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+}
+.teamImg img{
+  border-radius: 10px;
+  width: 90%;
+}
+.person1{
+  position: relative;
+  top: 4rem;
+}
+.person3{
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+.client-review{
+  width: 75%;
+  margin: 30px 0 0 40px;
+}
+.client img{
+  height: 80px;
+  width: 80px;
+  border-radius: 10px;
+  margin-top: 10px;
+}
+.client{
+  display: flex;
+}
+.client-detail{
+  position: relative;
+  top: 2rem;
+  margin-left: 20px;
+}
+.client-review h4, .client-detail h4{
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.client p{
+  color: gray;
+  margin-top: 10px;
+}
+.bottom{
+  background-color: #100E1D;
+  color: white;
+  margin-top: 50px;
+  position: relative;
+  bottom: 0;
+}
+.bottom li{
+  list-style-type: none;
+  margin: 10px 10px;
+}
+.bottom nav{
+  padding-top: 20px;
+  margin: 0 0 0 30px;
+}
+.bottom a{
+  color: white;
+  text-decoration: none;
+}
+#twitter{
+  position: relative;
+  top: 2px;
+}
+.join, .social {
+  margin: 30px 0 0 40px;
+   width: 75%;
+}
+.credit{
+  padding-bottom: 2rem;
+  text-align: center;
+}
+ .credit a{
+   color: white;
+   text-decoration: underline;
+ }
+
+ @media(min-width:768px){
+   .header{
+     height: 25vh;
+     width: 80%;
+   }
+   .services{
+     flex-direction: row;
+     height: 30%;
+     width: 80%;
+   }
+   .demo{
+     width: 80%;
+     grid-template-columns: repeat(2, 1fr);
+     grid-template-rows: repeat(2, 1fr);
+   }
+   .demo img{
+     width: 100%;
+   }
+   .smarthome, .booking{
+     margin-top: 4rem;
+   }
+   .onboard, .juice{
+     margin-left: 2rem;
+   }
+   .bottom {
+     display: flex;
+     padding-bottom: 4rem;
+   }
+   .credit{
+     position: relative;
+     top: 13rem;
+     right: 50%;
+     width: 50%;
+   }
+ }
